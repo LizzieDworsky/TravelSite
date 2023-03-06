@@ -1,0 +1,179 @@
+body {
+    margin: 0;
+    font-weight: bold;
+}
+
+hr {
+    margin-bottom: 3.5rem;
+    border: none;
+    border-style: solid;
+    border-color: #251c39;
+    width: 90%;
+    border-radius: 10px;
+}
+
+footer {
+    background-image: linear-gradient(90deg, #ffffff5c 25%, #ffffff5c 100%),
+        url("./images/HungarianParliament.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 40rem;
+    overflow: hidden;
+    overflow: hidden;
+}
+
+.footer-div {
+    display: grid;
+    place-content: center;
+}
+
+.form-input {
+    display: block;
+    margin-top: 1rem;
+    width: 150%;
+    background-color: rgba(255, 255, 255, 0.792);
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.form-button {
+    margin-top: 10px;
+    margin-left: 90%;
+    padding: 8px 11.6px;
+    border-radius: 15px;
+    border: 1px solid black;
+    background-color: rgba(0, 0, 0, 0.783);
+    color: white;
+    transition: all 200ms ease-in-out;
+}
+
+.form-button:hover {
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.card {
+    width: 30%;
+}
+
+.destination-section {
+    padding: 2%;
+}
+
+.destination-img {
+    border-radius: 25px 25px 0px 0px;
+    background-size: cover;
+    background-position: center;
+    height: 450px;
+    overflow: hidden;
+}
+
+.maldives {
+    background-image: url("./images/Maldives.jpg");
+}
+.istanbul {
+    background-image: url("./images/IstanbulTurkey.jpg");
+}
+.madrid {
+    background-image: url("./images/MadridSpain.jpg");
+}
+.rome {
+    background-image: url("./images/RomeItaly.jpg");
+}
+.greece {
+    background-image: url("./images/SantoriniGreece.jpg");
+}
+.singapore {
+    background-image: url("./images/Singapore.jpg");
+}
+
+.card-text {
+    position: relative;
+    bottom: 100px;
+    left: 50px;
+    background-color: rgba(255, 255, 255, 0.606);
+    padding: 30px;
+    color: black;
+    font-size: 125%;
+}
+
+.link-text {
+    text-decoration: none;
+    color: #251c39;
+    list-style-type: none;
+    padding-left: 5%;
+    font-size: 125%;
+}
+
+.nav-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 5px;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.4);
+    background-color: rgb(255, 255, 255);
+    z-index: 1;
+}
+
+.nav-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.home-background {
+    background-image: linear-gradient(
+            90deg,
+            #f4b1e55c 3%,
+            transparent 25%,
+            transparent 75%,
+            #f4b1e55c 97%
+        ),
+        url("./images/SouthTyrolItaly.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 60rem;
+    overflow: hidden;
+    margin: 3rem 0 3.5rem 0;
+    overflow: hidden;
+}
+
+.home-center-div {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    text-align: center;
+    margin-top: 20%;
+    background-color: rgba(255, 255, 255, 0.548);
+    border-radius: 25px;
+}
+
+.home-text {
+    font-size: 400%;
+    color: #251c39;
+    margin-bottom: 40px;
+}
+
+.home-button {
+    margin-bottom: 40px;
+    padding: 16px 23.2px;
+    font-size: 100%;
+    border-radius: 25px;
+    border: 2px solid #251c39;
+    background-color: #251c39;
+    color: white;
+    transition: all 200ms ease-in-out;
+}
+
+.home-button:hover {
+    background-color: transparent;
+    color: #251c39;
+    cursor: pointer;
+}
